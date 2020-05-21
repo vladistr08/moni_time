@@ -2,7 +2,17 @@
 
 ## Functionalitatea Aplicatiei
 
+-- Aplicatia va functiona pe sisteme de tip desktop
 
+-- Colecteaza la 10 secunde informatii **procese active**
+
+-- Aplicatia filtreaza din procesele active, doar procesele in care user-ul e activ (Chrome, Jocuri, etc.) nu si cele de tip sistem
+
+-- Adauga informatiile colectate in baza de date locala (cache local)
+
+--Cand exista o conexiune stabila la internet, aplicatia transmite datele la baza de date de pe server
+
+-- User-ul poate vizualiza statistici(Online sau pe Mobil)
 
 ## Web Back/Front end
 
