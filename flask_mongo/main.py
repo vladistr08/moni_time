@@ -11,4 +11,9 @@ def post_json():
     mongo.db.Prox.insert(dict(req_data))
     return dict(req_data)
 
+@app.route('/list/<username>')
+def getProcesses(username):
+    user_profile = mongo.db.Prox.find_one({'username':username})
+    return str(user_profile)
+
 app.run(host = '0.0.0.0')
