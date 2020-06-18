@@ -1,0 +1,8 @@
+POST http://0.0.0.0:5000/upload
+Content-Type: application/json
+
+{
+    "name": "Vlad",
+    "date": "08/08/2002 12:45",
+    "active": "Chrome: 12 sec"
+}
